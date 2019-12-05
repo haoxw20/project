@@ -1,0 +1,224 @@
+body {
+  background: #fff;
+}
+
+nav .nav-box .list .title ol {
+  background: #eee;
+  display: none;
+}
+
+nav .nav-box .list .title ol li {
+  color: black;
+  text-align: left;
+  height: 32px;
+}
+
+nav .nav-box .list .title ol li a {
+  color: #111;
+}
+
+nav .nav-box .list .title ol li a:hover {
+  color: #c00;
+}
+
+nav .nav-box .list .title:hover ol {
+  display: block;
+}
+
+section {
+  width: 1200px;
+  height: 500px;
+  margin: 20px auto 100px;
+}
+
+section .glass {
+  width: 380px;
+  height: 490px;
+  position: relative;
+}
+
+section .glass .zoom {
+  width: 360px;
+  height: 360px;
+}
+
+section .glass .zoom img {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+section .glass ul {
+  width: 310px;
+  height: 56px;
+  padding: 30px;
+}
+
+section .glass ul li {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 4px;
+  border: 1px solid #999;
+}
+
+section .glass ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+section .glass .big-box {
+  width: 430px;
+  height: 500px;
+  border: 1px solid #999;
+  position: absolute;
+  left: 380px;
+  top: 0;
+  display: none;
+}
+
+section .center {
+  padding: 20px;
+}
+
+section .center .biscuits {
+  height: 100px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+section .center .biscuits .bis-price b {
+  color: red;
+}
+
+section .center .biscuits .bis-price span {
+  font-size: 20px;
+  color: red;
+}
+
+section .center p a {
+  padding: 10px 20px;
+  border: 1px solid red;
+}
+
+.small-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.magnifier {
+  width: 380px;
+  position: relative;
+  float: left;
+}
+
+.magnifier-container {
+  width: 380px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+.move-view {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #fff;
+  opacity: 0.6;
+}
+
+.images-cover {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.images-cover img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.magnifier-assembly {
+  height: 92px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.magnifier-line {
+  position: relative;
+  overflow: hidden;
+  height: 92px;
+  margin-top: 30px;
+}
+
+.magnifier-line ul {
+  display: block;
+  font-size: 0;
+  width: 10000%;
+  position: absolute;
+  left: 0;
+  z-index: 9997;
+}
+
+.magnifier-line li {
+  float: left;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.magnifier-line ul > .active .small-img {
+  border-color: #bbb;
+}
+
+.small-img {
+  height: 50px;
+  padding: 1px;
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.small-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.magnifier-view {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -105%;
+  top: 0;
+  z-index: 9999;
+  background-color: #fff;
+  display: none;
+  overflow: hidden;
+}
+
+.magnifier-view img {
+  display: block;
+}
+
+.animation03 {
+  transition: all 0.3s ease-in 0.1s;
+  -ms-transition: all 0.3s ease-in 0.1s;
+  -moz-transition: all 0.3s ease-in 0.1s;
+  -webkit-transition: all 0.3s ease-in 0.1s;
+  -o-transition: all 0.3s ease-in 0.1s;
+}

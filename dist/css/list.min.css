@@ -1,0 +1,119 @@
+body {
+  background: #fff;
+}
+
+nav .nav-box .list .title ol {
+  background: #eee;
+  display: none;
+}
+
+nav .nav-box .list .title ol li {
+  color: black;
+  text-align: left;
+  height: 32px;
+}
+
+nav .nav-box .list .title ol li a {
+  color: #111;
+}
+
+nav .nav-box .list .title ol li a:hover {
+  color: #c00;
+}
+
+nav .nav-box .list .title:hover ol {
+  display: block;
+}
+
+.list-ul {
+  width: 1210px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.list-ul li {
+  width: 240px;
+  height: 480px;
+  border: 1px solid #fff;
+  font-size: 12px;
+}
+
+.list-ul li img {
+  width: 240px;
+}
+
+.list-ul li p {
+  padding: 6px 14px;
+}
+
+.list-ul li .p-price {
+  color: red;
+}
+
+.list-ul li .p-price span {
+  font-size: 20px;
+}
+
+.list-ul li .p-name a {
+  color: orange;
+}
+
+.list-ul li .p-name a span {
+  color: #222;
+}
+
+.list-ul li .p-name a:hover span {
+  color: #b00;
+}
+
+.list-ul li .p-commit {
+  color: #777;
+}
+
+.list-ul li .p-commit a {
+  color: blue;
+}
+
+.list-ul li .p-shop a {
+  color: #666;
+}
+
+.list-ul li .p-icon {
+  background: red;
+  color: #fff;
+}
+
+.list-ul li .box {
+  padding-left: 14px;
+}
+
+.list-ul li .box .collect {
+  border: 1px solid #888;
+  padding: 5px 10px;
+  float: left;
+}
+
+.list-ul li .box .collect:hover {
+  border-color: red;
+}
+
+.list-ul li .box .collect:hover a {
+  color: red;
+}
+
+.list-ul li .box .addcart {
+  border: 1px solid #888;
+  padding: 5px 10px;
+  width: 50px;
+  color: red;
+  width: 60px;
+  float: left;
+}
+
+.list-ul li .box .addcart:hover {
+  border-color: red;
+}
+
+.list-ul li:hover {
+  border-color: #ccc;
+}

@@ -1,0 +1,110 @@
+body{
+    background: #fff;
+}
+nav{
+    .nav-box{
+        .list{
+            .title{
+                ol{
+                    background: #eee;
+                    display: none;
+                    li{
+                        color: black;
+                        text-align: left;
+                        height: 32px;
+                        a{
+                            color: #111;
+                        }
+                        a:hover{
+                            color: #c00;
+                        }
+                    }
+                }
+            }
+            .title:hover{
+                ol{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.list-ul{
+    width: 1210px;
+    height: 1000px;
+    margin: 0 auto;
+    li{
+        width: 240px;
+        height: 480px;
+        border:1px solid #fff;
+        font-size: 12px;
+        img{
+            width: 240px;
+        }
+        p{
+            padding: 6px 14px;
+        }
+        .p-price{
+            color: red;
+            span{
+                font-size: 20px;
+            }
+        }
+        .p-name{
+            a{
+                color: orange;
+                span{
+                    color: #222;
+                }
+            }
+            a:hover{
+                span{
+                    color: #b00;
+                }
+            }
+        }
+        .p-commit{
+            color: #777;
+            a{
+                color:blue;
+            }
+        }
+        .p-shop{
+            a{
+                color: #666;
+            }
+        }
+        .p-icon{
+            background: red;
+            color: #fff;
+        }
+        .box{
+            padding-left: 14px;
+            .collect{
+                border: 1px solid #888;
+                padding: 5px 10px;
+                float: left;
+            }
+            .collect:hover{
+                border-color: red;
+                a{
+                    color: red;
+                }
+            }
+            .addcart{
+                border: 1px solid #888;
+                padding: 5px 10px;
+                width: 50px;
+                color: red;
+                width: 60px;
+                float: left;
+            }
+            .addcart:hover{
+                border-color: red;
+            }
+        }
+    }
+    li:hover{
+        border-color: #ccc;
+    }
+}
